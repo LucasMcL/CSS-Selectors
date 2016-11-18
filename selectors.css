@@ -1,3 +1,66 @@
 header {
 	border: solid black 1px;
 }
+
+#nav_list {
+	list-style: none;
+	display: flex;
+	align-content: row;
+	justify-content: space-around;
+	font-size: 1.5em;
+}
+
+.disabled {
+	color: grey;
+}
+
+a .disabled, a.disabled {
+	color: purple;
+}
+
+.active {
+	color: yellow;
+}
+
+#red_text {
+	color: red;
+}
+
+#blue_text {
+	color: blue;
+}
+
+#red_text + h4 {
+	background-color: red;
+}
+
+#blue_text + h4 {
+	background-color: blue;
+}
+
+.grandparent > h4 {
+	border: black solid 1px;
+	border-radius: 25%;
+}
+
+.promo {
+	font-weight: bold;
+	color: gold;
+}
+
+input[type="text"] {
+	height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
